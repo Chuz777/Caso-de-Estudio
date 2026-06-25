@@ -1,0 +1,53 @@
+@model CasodeEstudio.Models.Tarea
+
+@{
+    ViewBag.Title = "Eliminar Tarea";
+    string badgeClass = "default";
+    switch (Model.Estado)
+    {
+        case "Pendiente": badgeClass = "warning"; break;
+        case "En Proceso": badgeClass = "info"; break;
+        case "Completada": badgeClass = "success"; break;
+        case "Cancelada": badgeClass = "danger"; break;
+    }
+}
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <span class="glyphicon glyphicon-trash"></span> Eliminar Tarea
+                </h3>
+            </div>
+            <div class="panel-body">
+                <div class="alert alert-danger">
+                    <strong>¿Estás seguro?</strong> Esta acción no se puede deshacer.
+                </div>
+                <dl class="dl-horizontal">
+                    <dt>Título</dt>
+                    <dd><strong>@Model.Titulo</strong></dd>
+
+                    <dt>Detalle</dt>
+                    <dd>@Model.Detalle</dd>
+
+                    <dt>Fecha y Hora</dt>
+                    <dd>@Model.FechaHora.ToString("dd/MM/yyyy HH:mm")</dd>
+
+                    <dt>Estado</dt>
+                    <dd><span class="label label-@badgeClass">@Model.Estado</span></dd>
+                </dl>
+            </div>
+            <div class="panel-footer clearfix">
+                @using (Html.BeginForm("Eliminar", "Tareas", new { id = Model.Id }, FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ActionLink("No, cancelar", "Index", "Tareas", null, new { @class = "btn btn-default" })
+                    <button type="submit" class="btn btn-danger pull-right">
+                        <span class="glyphicon glyphicon-trash"></span> Sí, eliminar
+                    </button>
+                }
+            </div>
+        </div>
+    </div>
+</div>

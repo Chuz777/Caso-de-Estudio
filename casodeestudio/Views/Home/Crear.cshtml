@@ -1,0 +1,79 @@
+@using (Html.BeginForm())
+@model CasodeEstudio.Models.Tarea
+@Html.AntiForgeryToken()
+
+
+@{
+    ViewBag.Title = "Nueva Tarea";
+}
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <span class="glyphicon glyphicon-plus-sign"></span> Nueva Tarea
+                </h3>
+            </div>
+            <div class="panel-body">
+                @using (Html.BeginForm("Crear", "Tareas", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Titulo, new { @class = "control-label" })
+                        @Html.TextBoxFor(m => m.Titulo, new { @class = "form-control", placeholder = "Ej: Preparar informe mensual", maxlength = "100" })
+                        @Html.ValidationMessageFor(m => m.Titulo, "", new { @class = "help-block text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Detalle, new { @class = "control-label" })
+                        @Html.TextAreaFor(m => m.Detalle, 4, 0, new { @class = "form-control", placeholder = "Describe la actividad a realizar...", maxlength = "500" })
+                        @Html.ValidationMessageFor(m => m.Detalle, "", new { @class = "help-block text-danger" })
+                        <small class="text-muted pull-right" id="charCount">0 / 500 caracteres</small>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.FechaHora, new { @class = "control-label" })
+                        @Html.TextBoxFor(m => m.FechaHora, "{0:yyyy-MM-ddTHH:mm}", new { @class = "form-control", type = "datetime-local" })
+                        @Html.ValidationMessageFor(m => m.FechaHora, "", new { @class = "help-block text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Estado, new { @class = "control-label" })
+                        @Html.DropDownListFor(m => m.Estado,
+                            new SelectList(new[] {
+                                new { Value = "",           Text = "-- Seleccione un estado --" },
+                                new { Value = "Pendiente",  Text = "Pendiente" },
+                                new { Value = "En Proceso", Text = "En Proceso" },
+                                new { Value = "Completada", Text = "Completada" },
+                                new { Value = "Cancelada",  Text = "Cancelada" }
+                            }, "Value", "Text"),
+                            new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Estado, "", new { @class = "help-block text-danger" })
+                    </div>
+
+                    <hr />
+
+                    <div class="clearfix">
+                        @Html.ActionLink("Cancelar", "Index", "Tareas", null, new { @class = "btn btn-default" })
+                        <button type="submit" class="btn btn-primary pull-right">
+                            <span class="glyphicon glyphicon-floppy-disk"></span> Guardar Tarea
+                        </button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        var $detalle = $('#Detalle');
+        var $count = $('#charCount');
+        function actualizar() { $count.text($detalle.val().length + ' / 500 caracteres'); }
+        $detalle.on('input', actualizar);
+        actualizar();
+    </script>
+}

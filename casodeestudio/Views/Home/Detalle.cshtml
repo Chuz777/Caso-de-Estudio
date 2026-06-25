@@ -1,0 +1,49 @@
+@Html.DisplayFor(model => model.Titulo)
+@model CasodeEstudio.Models.Tarea
+
+@{
+    ViewBag.Title = "Detalle de Tarea";
+    string badgeClass = "default";
+    switch (Model.Estado)
+    {
+        case "Pendiente": badgeClass = "warning"; break;
+        case "En Proceso": badgeClass = "info"; break;
+        case "Completada": badgeClass = "success"; break;
+        case "Cancelada": badgeClass = "danger"; break;
+    }
+}
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <span class="glyphicon glyphicon-file"></span> Detalle de Tarea
+                    <span class="label label-@badgeClass pull-right">@Model.Estado</span>
+                </h3>
+            </div>
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Título</dt>
+                    <dd><strong>@Model.Titulo</strong></dd>
+
+                    <dt>Detalle</dt>
+                    <dd>@Model.Detalle</dd>
+
+                    <dt>Fecha y Hora</dt>
+                    <dd>@Model.FechaHora.ToString("dd/MM/yyyy HH:mm")</dd>
+
+                    <dt>Estado</dt>
+                    <dd><span class="label label-@badgeClass">@Model.Estado</span></dd>
+                </dl>
+            </div>
+            <div class="panel-footer clearfix">
+                @Html.ActionLink("Volver", "Index", "Tareas", null, new { @class = "btn btn-default" })
+                <div class="pull-right">
+                    @Html.ActionLink("Editar", "Editar", new { id = Model.Id }, new { @class = "btn btn-primary" })
+                    @Html.ActionLink("Eliminar", "Eliminar", new { id = Model.Id }, new { @class = "btn btn-danger" })
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

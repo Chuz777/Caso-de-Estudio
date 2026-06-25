@@ -1,0 +1,94 @@
+@model IEnumerable<CasodeEstudio.Models.Tarea>
+
+@{
+    ViewBag.Title = "Tareas";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="mb-0 fw-bold">Gestion de Tareas</h2>
+        <small class="text-muted">Administra las actividades de tu organizacion</small>
+    </div>
+    @Html.ActionLink("+ Nueva Tarea", "Crear", "Tareas", null, new { @class = "btn btn-primary" })
+</div>
+
+@if (TempData["Exito"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show alerta-auto" role="alert">
+        <i class="glyphicon glyphicon-ok-circle"></i> @TempData["Exito"]
+        <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+    </div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show alerta-auto" role="alert">
+        <i class="glyphicon glyphicon-remove-circle"></i> @TempData["Error"]
+        <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+    </div>
+}
+@if (TempData["Advertencia"] != null)
+{
+    <div class="alert alert-warning alert-dismissible fade show alerta-auto" role="alert">
+        <i class="glyphicon glyphicon-warning-sign"></i> @TempData["Advertencia"]
+        <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+    </div>
+}
+
+@if (!Model.Any())
+{
+    <div class="text-center" style="padding-top: 60px;">
+        <span class="glyphicon glyphicon-inbox" style="font-size: 64px; color: #ccc;"></span>
+        <h4 class="text-muted" style="margin-top: 16px;">No hay tareas registradas</h4>
+        <p class="text-muted">Crea la primera tarea para comenzar.</p>
+        @Html.ActionLink("Crear Tarea", "Crear", "Tareas", null, new { @class = "btn btn-primary" })
+    </div>
+}
+else
+{
+    <div class="panel panel-default">
+        <div class="panel-body" style="padding: 0;">
+            <table class="table table-hover table-striped" style="margin-bottom: 0;">
+                <thead>
+                    <tr class="active">
+                        <th>Título</th>
+                        <th>Fecha y Hora</th>
+                        <th>Estado</th>
+                        <th class="text-center">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var tarea in Model)
+                    {
+                        string badgeClass = "default";
+                        switch (tarea.Estado)
+                        {
+                            case "Pendiente": badgeClass = "warning"; break;
+                            case "En Proceso": badgeClass = "info"; break;
+                            case "Completada": badgeClass = "success"; break;
+                            case "Cancelada": badgeClass = "danger"; break;
+                        }
+                        <tr>
+                            <td><strong>@tarea.Titulo</strong></td>
+                            <td>@tarea.FechaHora.ToString("dd/MM/yyyy HH:mm")</td>
+                            <td><span class="label label-@badgeClass">@tarea.Estado</span></td>
+                            <td class="text-center">
+                                @Html.ActionLink("Ver", "Detalle", new { id = tarea.Id }, new { @class = "btn btn-xs btn-default" })
+                                @Html.ActionLink("Editar", "Editar", new { id = tarea.Id }, new { @class = "btn btn-xs btn-primary" })
+                                @Html.ActionLink("Eliminar", "Eliminar", new { id = tarea.Id }, new { @class = "btn btn-xs btn-danger" })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <p class="text-muted text-right"><small>@Model.Count() tarea(s) registrada(s)</small></p>
+}
+
+@section Scripts {
+    <script>
+        setTimeout(function () {
+            $('.alerta-auto').fadeOut('slow', function () { $(this).remove(); });
+        }, 4000);
+    </script>
+}
