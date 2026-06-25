@@ -93,3 +93,173 @@ Nombre del parámetro: source
 2026-06-25 01:44:07.858 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 01:44:07 | Controlador: Home | Acción: Index
 2026-06-25 01:45:44.895 -06:00 [INF] --- La Aplicación ToDo Empresarial ha iniciado con éxito ---
 2026-06-25 01:45:45.124 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 01:45:45 | Controlador: Home | Acción: Index
+2026-06-25 07:52:26.805 -06:00 [INF] --- La Aplicación ToDo Empresarial ha iniciado con éxito ---
+2026-06-25 07:52:27.086 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:52:27 | Controlador: Tareas | Acción: Index
+2026-06-25 07:53:30.519 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:53:30 | Controlador: Tareas | Acción: Crear
+2026-06-25 07:53:30.533 -06:00 [ERR] [ERROR GLOBAL] Ocurrió una falla en: Tareas/Crear
+System.Web.HttpParseException (0x80004005): Se esperaba "{" pero se encontró "@". Las instrucciones de bloque deben ir entre "{" y "}". No se pueden usar instrucciones de flujo de control simples en las páginas CSHTML. Por ejemplo, no se permite lo siguiente:
+
+@if(isLoggedIn)
+    <p>Hola, @user</p>
+
+En su lugar, incluya el contenido del bloque entre "{}":
+
+@if(isLoggedIn) {
+    <p>Hola, @user</p>
+}
+
+   en System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   en System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   en System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   en System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2026-06-25 07:53:32.895 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:53:32 | Controlador: Tareas | Acción: Index
+2026-06-25 07:53:35.088 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:53:35 | Controlador: Tareas | Acción: Crear
+2026-06-25 07:53:35.097 -06:00 [ERR] [ERROR GLOBAL] Ocurrió una falla en: Tareas/Crear
+System.Web.HttpParseException (0x80004005): Se esperaba "{" pero se encontró "@". Las instrucciones de bloque deben ir entre "{" y "}". No se pueden usar instrucciones de flujo de control simples en las páginas CSHTML. Por ejemplo, no se permite lo siguiente:
+
+@if(isLoggedIn)
+    <p>Hola, @user</p>
+
+En su lugar, incluya el contenido del bloque entre "{}":
+
+@if(isLoggedIn) {
+    <p>Hola, @user</p>
+}
+
+   en System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   en System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   en System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   en System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2026-06-25 07:53:36.405 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:53:36 | Controlador: Tareas | Acción: Index
+2026-06-25 07:53:38.457 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:53:38 | Controlador: Tareas | Acción: Editar
+2026-06-25 07:53:40.500 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:53:40 | Controlador: Tareas | Acción: Editar
+2026-06-25 07:53:40.664 -06:00 [INF] [NEGOCIO] Tarea modificada con éxito. ID: 1 - Nuevo Estado: Completada
+2026-06-25 07:53:40.673 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:53:40 | Controlador: Tareas | Acción: Index
+2026-06-25 07:53:42.464 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:53:42 | Controlador: Tareas | Acción: Editar
+2026-06-25 07:53:46.940 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:53:46 | Controlador: Tareas | Acción: Editar
+2026-06-25 07:53:46.946 -06:00 [INF] [NEGOCIO] Tarea modificada con éxito. ID: 2 - Nuevo Estado: Completada
+2026-06-25 07:53:46.952 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:53:46 | Controlador: Tareas | Acción: Index
+2026-06-25 07:53:57.414 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:53:57 | Controlador: Tareas | Acción: Detalle
+2026-06-25 07:54:01.407 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:54:01 | Controlador: Tareas | Acción: Index
+2026-06-25 07:54:14.597 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:54:14 | Controlador: Tareas | Acción: Crear
+2026-06-25 07:54:14.604 -06:00 [ERR] [ERROR GLOBAL] Ocurrió una falla en: Tareas/Crear
+System.Web.HttpParseException (0x80004005): Se esperaba "{" pero se encontró "@". Las instrucciones de bloque deben ir entre "{" y "}". No se pueden usar instrucciones de flujo de control simples en las páginas CSHTML. Por ejemplo, no se permite lo siguiente:
+
+@if(isLoggedIn)
+    <p>Hola, @user</p>
+
+En su lugar, incluya el contenido del bloque entre "{}":
+
+@if(isLoggedIn) {
+    <p>Hola, @user</p>
+}
+
+   en System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   en System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   en System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   en System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2026-06-25 07:54:19.670 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:54:19 | Controlador: Tareas | Acción: Index
+2026-06-25 07:54:21.885 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:54:21 | Controlador: Home | Acción: Index
+2026-06-25 07:54:24.966 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:54:24 | Controlador: Home | Acción: About
+2026-06-25 07:54:26.574 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:54:26 | Controlador: Home | Acción: Contact
+2026-06-25 07:54:35.142 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:54:35 | Controlador: Tareas | Acción: Crear
+2026-06-25 07:54:35.152 -06:00 [ERR] [ERROR GLOBAL] Ocurrió una falla en: Tareas/Crear
+System.Web.HttpParseException (0x80004005): Se esperaba "{" pero se encontró "@". Las instrucciones de bloque deben ir entre "{" y "}". No se pueden usar instrucciones de flujo de control simples en las páginas CSHTML. Por ejemplo, no se permite lo siguiente:
+
+@if(isLoggedIn)
+    <p>Hola, @user</p>
+
+En su lugar, incluya el contenido del bloque entre "{}":
+
+@if(isLoggedIn) {
+    <p>Hola, @user</p>
+}
+
+   en System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   en System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   en System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   en System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2026-06-25 07:56:43.366 -06:00 [INF] --- La Aplicación ToDo Empresarial ha iniciado con éxito ---
+2026-06-25 07:56:43.783 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:56:43 | Controlador: Tareas | Acción: Crear
+2026-06-25 07:56:44.539 -06:00 [ERR] [ERROR GLOBAL] Ocurrió una falla en: Tareas/Crear
+System.Web.HttpParseException (0x80004005): Se esperaba "{" pero se encontró "@". Las instrucciones de bloque deben ir entre "{" y "}". No se pueden usar instrucciones de flujo de control simples en las páginas CSHTML. Por ejemplo, no se permite lo siguiente:
+
+@if(isLoggedIn)
+    <p>Hola, @user</p>
+
+En su lugar, incluya el contenido del bloque entre "{}":
+
+@if(isLoggedIn) {
+    <p>Hola, @user</p>
+}
+
+   en System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   en System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   en System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   en System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2026-06-25 07:56:49.923 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:56:49 | Controlador: Tareas | Acción: Index
