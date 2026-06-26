@@ -263,3 +263,182 @@ En su lugar, incluya el contenido del bloque entre "{}":
    en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
    en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
 2026-06-25 07:56:49.923 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 07:56:49 | Controlador: Tareas | Acción: Index
+2026-06-25 20:56:23.192 -06:00 [INF] --- La Aplicación ToDo Empresarial ha iniciado con éxito ---
+2026-06-25 20:56:31.975 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 20:56:31 | Controlador: Tareas | Acción: Index
+2026-06-25 20:57:44.221 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 20:57:44 | Controlador: Tareas | Acción: Crear
+2026-06-25 20:57:45.289 -06:00 [ERR] [ERROR GLOBAL] Ocurrió una falla en: Tareas/Crear
+System.Web.HttpParseException (0x80004005): Se esperaba "{" pero se encontró "@". Las instrucciones de bloque deben ir entre "{" y "}". No se pueden usar instrucciones de flujo de control simples en las páginas CSHTML. Por ejemplo, no se permite lo siguiente:
+
+@if(isLoggedIn)
+    <p>Hola, @user</p>
+
+En su lugar, incluya el contenido del bloque entre "{}":
+
+@if(isLoggedIn) {
+    <p>Hola, @user</p>
+}
+
+   en System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   en System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   en System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   en System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2026-06-25 20:58:57.962 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 20:58:57 | Controlador: Tareas | Acción: Index
+2026-06-25 20:58:59.396 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 20:58:59 | Controlador: Tareas | Acción: Crear
+2026-06-25 20:58:59.407 -06:00 [ERR] [ERROR GLOBAL] Ocurrió una falla en: Tareas/Crear
+System.Web.HttpParseException (0x80004005): Se esperaba "{" pero se encontró "@". Las instrucciones de bloque deben ir entre "{" y "}". No se pueden usar instrucciones de flujo de control simples en las páginas CSHTML. Por ejemplo, no se permite lo siguiente:
+
+@if(isLoggedIn)
+    <p>Hola, @user</p>
+
+En su lugar, incluya el contenido del bloque entre "{}":
+
+@if(isLoggedIn) {
+    <p>Hola, @user</p>
+}
+
+   en System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   en System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   en System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   en System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2026-06-25 20:59:00.647 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 20:59:00 | Controlador: Tareas | Acción: Index
+2026-06-25 20:59:04.059 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 20:59:04 | Controlador: Tareas | Acción: Detalle
+2026-06-25 20:59:11.673 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 20:59:11 | Controlador: Tareas | Acción: Crear
+2026-06-25 20:59:11.680 -06:00 [ERR] [ERROR GLOBAL] Ocurrió una falla en: Tareas/Crear
+System.Web.HttpParseException (0x80004005): Se esperaba "{" pero se encontró "@". Las instrucciones de bloque deben ir entre "{" y "}". No se pueden usar instrucciones de flujo de control simples en las páginas CSHTML. Por ejemplo, no se permite lo siguiente:
+
+@if(isLoggedIn)
+    <p>Hola, @user</p>
+
+En su lugar, incluya el contenido del bloque entre "{}":
+
+@if(isLoggedIn) {
+    <p>Hola, @user</p>
+}
+
+   en System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   en System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   en System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   en System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2026-06-25 20:59:15.190 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 20:59:15 | Controlador: Tareas | Acción: Index
+2026-06-25 20:59:20.841 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 20:59:20 | Controlador: Tareas | Acción: Crear
+2026-06-25 20:59:20.848 -06:00 [ERR] [ERROR GLOBAL] Ocurrió una falla en: Tareas/Crear
+System.Web.HttpParseException (0x80004005): Se esperaba "{" pero se encontró "@". Las instrucciones de bloque deben ir entre "{" y "}". No se pueden usar instrucciones de flujo de control simples en las páginas CSHTML. Por ejemplo, no se permite lo siguiente:
+
+@if(isLoggedIn)
+    <p>Hola, @user</p>
+
+En su lugar, incluya el contenido del bloque entre "{}":
+
+@if(isLoggedIn) {
+    <p>Hola, @user</p>
+}
+
+   en System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   en System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   en System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   en System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2026-06-25 21:33:02.422 -06:00 [INF] --- La Aplicación ToDo Empresarial ha iniciado con éxito ---
+2026-06-25 21:33:02.839 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:33:02 | Controlador: Tareas | Acción: Crear
+2026-06-25 21:33:14.946 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:33:14 | Controlador: Home | Acción: Index
+2026-06-25 21:33:16.796 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:33:16 | Controlador: Home | Acción: Index
+2026-06-25 21:33:18.589 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:33:18 | Controlador: Home | Acción: Index
+2026-06-25 21:33:19.917 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:33:19 | Controlador: Home | Acción: About
+2026-06-25 21:33:20.680 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:33:20 | Controlador: Home | Acción: Contact
+2026-06-25 21:33:21.745 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:33:21 | Controlador: Home | Acción: Index
+2026-06-25 21:33:22.335 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:33:22 | Controlador: Home | Acción: Index
+2026-06-25 21:33:23.083 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:33:23 | Controlador: Home | Acción: Index
+2026-06-25 21:36:41.349 -06:00 [INF] --- La Aplicación ToDo Empresarial ha iniciado con éxito ---
+2026-06-25 21:36:42.131 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:36:42 | Controlador: Tareas | Acción: Crear
+2026-06-25 21:36:46.594 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:36:46 | Controlador: Tareas | Acción: Index
+2026-06-25 21:36:52.102 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:36:52 | Controlador: Home | Acción: About
+2026-06-25 21:36:53.313 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:36:53 | Controlador: Home | Acción: Contact
+2026-06-25 21:36:54.986 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:36:54 | Controlador: Tareas | Acción: Index
+2026-06-25 21:36:56.152 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:36:56 | Controlador: Home | Acción: Contact
+2026-06-25 21:36:57.012 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:36:57 | Controlador: Home | Acción: Index
+2026-06-25 21:36:58.195 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:36:58 | Controlador: Home | Acción: Index
+2026-06-25 21:36:58.366 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:36:58 | Controlador: Home | Acción: Index
+2026-06-25 21:46:53.322 -06:00 [INF] --- La Aplicación ToDo Empresarial ha iniciado con éxito ---
+2026-06-25 21:46:53.517 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:46:53 | Controlador: Home | Acción: Index
+2026-06-25 21:46:57.057 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:46:57 | Controlador: Tareas | Acción: Index
+2026-06-25 21:47:03.489 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:03 | Controlador: Tareas | Acción: Index
+2026-06-25 21:47:06.028 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:06 | Controlador: Tareas | Acción: Index
+2026-06-25 21:47:07.228 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:07 | Controlador: Tareas | Acción: Index
+2026-06-25 21:47:08.863 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:08 | Controlador: Tareas | Acción: Index
+2026-06-25 21:47:10.313 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:10 | Controlador: Tareas | Acción: Detalle
+2026-06-25 21:47:11.618 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:11 | Controlador: Tareas | Acción: Index
+2026-06-25 21:47:12.093 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:12 | Controlador: Tareas | Acción: Index
+2026-06-25 21:47:12.778 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:12 | Controlador: Home | Acción: About
+2026-06-25 21:47:13.853 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:13 | Controlador: Tareas | Acción: Index
+2026-06-25 21:47:14.543 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:14 | Controlador: Tareas | Acción: Index
+2026-06-25 21:47:15.364 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:15 | Controlador: Home | Acción: Contact
+2026-06-25 21:47:16.300 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:16 | Controlador: Tareas | Acción: Index
+2026-06-25 21:47:18.947 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:18 | Controlador: Tareas | Acción: Detalle
+2026-06-25 21:47:21.145 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:21 | Controlador: Tareas | Acción: Index
+2026-06-25 21:47:22.389 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:22 | Controlador: Tareas | Acción: Index
+2026-06-25 21:47:25.024 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:25 | Controlador: Tareas | Acción: Detalle
+2026-06-25 21:47:28.097 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:47:28 | Controlador: Tareas | Acción: Crear
+2026-06-25 21:48:07.890 -06:00 [INF] --- La Aplicación ToDo Empresarial ha iniciado con éxito ---
+2026-06-25 21:48:08.083 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:48:08 | Controlador: Home | Acción: Index
+2026-06-25 21:49:41.009 -06:00 [INF] --- La Aplicación ToDo Empresarial ha iniciado con éxito ---
+2026-06-25 21:49:41.375 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:49:41 | Controlador: Tareas | Acción: Index
+2026-06-25 21:49:54.318 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:49:54 | Controlador: Tareas | Acción: Editar
+2026-06-25 21:49:57.482 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:49:57 | Controlador: Tareas | Acción: Editar
+2026-06-25 21:49:57.649 -06:00 [INF] [NEGOCIO] Tarea modificada con éxito. ID: 1 - Nuevo Estado: Cancelada
+2026-06-25 21:49:57.660 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:49:57 | Controlador: Tareas | Acción: Index
+2026-06-25 21:50:03.466 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:50:03 | Controlador: Tareas | Acción: Crear
+2026-06-25 21:50:07.367 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:50:07 | Controlador: Tareas | Acción: Index
+2026-06-25 21:50:08.320 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:50:08 | Controlador: Tareas | Acción: Index
+2026-06-25 21:50:09.556 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:50:09 | Controlador: Tareas | Acción: Index
+2026-06-25 21:50:11.402 -06:00 [INF] [AUDITORIA] Fecha/Hora: 25/06/2026 21:50:11 | Controlador: Tareas | Acción: Index
