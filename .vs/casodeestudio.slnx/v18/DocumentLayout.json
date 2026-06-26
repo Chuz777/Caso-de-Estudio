@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\views\\tareas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|d:\\progra avanzada\\casodeestudio1\\caso de estudio\\casodeestudio\\filters\\customerrorfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|solutionrelative:casodeestudio\\filters\\customerrorfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|d:\\progra avanzada\\casodeestudio1\\caso de estudio\\casodeestudio\\views\\tareas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|solutionrelative:casodeestudio\\views\\tareas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|solutionrelative:casodeestudio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|solutionrelative:casodeestudio\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|d:\\progra avanzada\\casodeestudio1\\caso de estudio\\casodeestudio\\infrastructure\\dbcontexts\\tareacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|solutionrelative:casodeestudio\\infrastructure\\dbcontexts\\tareacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\views\\tareas\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,20 +31,12 @@
       "RelativeMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|solutionrelative:casodeestudio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|d:\\progra avanzada\\casodeestudio1\\caso de estudio\\casodeestudio\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|solutionrelative:casodeestudio\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|solutionrelative:casodeestudio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\views\\tareas\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|solutionrelative:casodeestudio\\views\\tareas\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|d:\\progra avanzada\\casodeestudio1\\caso de estudio\\casodeestudio\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|solutionrelative:casodeestudio\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11C3811F-033D-418F-8850-820F4B2CF9FC}|casodeestudio\\casodeestudio.csproj|D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,53 +58,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomErrorFilter.cs",
+              "DocumentMoniker": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Filters\\CustomErrorFilter.cs",
+              "RelativeDocumentMoniker": "casodeestudio\\Filters\\CustomErrorFilter.cs",
+              "ToolTip": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Filters\\CustomErrorFilter.cs",
+              "RelativeToolTip": "casodeestudio\\Filters\\CustomErrorFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T03:51:54.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TareaContext.cs",
+              "DocumentMoniker": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\infrastructure\\DbContexts\\TareaContext.cs",
+              "RelativeDocumentMoniker": "casodeestudio\\infrastructure\\DbContexts\\TareaContext.cs",
+              "ToolTip": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\infrastructure\\DbContexts\\TareaContext.cs",
+              "RelativeToolTip": "casodeestudio\\infrastructure\\DbContexts\\TareaContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T03:51:38.568Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Site.css",
-              "DocumentMoniker": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Content\\Site.css",
-              "RelativeDocumentMoniker": "casodeestudio\\Content\\Site.css",
-              "ToolTip": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Content\\Site.css",
-              "RelativeToolTip": "casodeestudio\\Content\\Site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-06-26T03:40:10.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "casodeestudio\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "casodeestudio\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAcwCAAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-25T07:44:02.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "casodeestudio\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "casodeestudio\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-25T07:33:42.559Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "About.cshtml",
               "DocumentMoniker": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "casodeestudio\\Views\\Home\\About.cshtml",
@@ -108,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Detalle.cshtml",
               "DocumentMoniker": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Views\\Tareas\\Detalle.cshtml",
               "RelativeDocumentMoniker": "casodeestudio\\Views\\Tareas\\Detalle.cshtml",
@@ -116,12 +112,11 @@
               "RelativeToolTip": "casodeestudio\\Views\\Tareas\\Detalle.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-25T07:28:17.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-25T07:28:17.423Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Editar.cshtml",
               "DocumentMoniker": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Views\\Tareas\\Editar.cshtml",
               "RelativeDocumentMoniker": "casodeestudio\\Views\\Tareas\\Editar.cshtml",
@@ -133,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Crear.cshtml",
               "DocumentMoniker": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Views\\Tareas\\Crear.cshtml",
               "RelativeDocumentMoniker": "casodeestudio\\Views\\Tareas\\Crear.cshtml",
@@ -141,47 +136,82 @@
               "RelativeToolTip": "casodeestudio\\Views\\Tareas\\Crear.cshtml",
               "ViewState": "AgIAAC4AAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-25T07:26:42.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-25T07:26:42.547Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "casodeestudio\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "casodeestudio\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-25T07:25:36.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "TareasController.cs",
+              "DocumentMoniker": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Controllers\\TareasController.cs",
+              "RelativeDocumentMoniker": "casodeestudio\\Controllers\\TareasController.cs",
+              "ToolTip": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Controllers\\TareasController.cs",
+              "RelativeToolTip": "casodeestudio\\Controllers\\TareasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T05:48:00.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Views\\Tareas\\Index.cshtml",
               "RelativeDocumentMoniker": "casodeestudio\\Views\\Tareas\\Index.cshtml",
               "ToolTip": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Views\\Tareas\\Index.cshtml",
               "RelativeToolTip": "casodeestudio\\Views\\Tareas\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-25T07:24:57.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "casodeestudio\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "casodeestudio\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-25T07:33:42.559Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "TareasController.cs",
-              "DocumentMoniker": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Controllers\\TareasController.cs",
-              "RelativeDocumentMoniker": "casodeestudio\\Controllers\\TareasController.cs",
-              "ToolTip": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Controllers\\TareasController.cs",
-              "RelativeToolTip": "casodeestudio\\Controllers\\TareasController.cs",
-              "ViewState": "AgIAAF8AAADoZ2ZmZmYqwHkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T05:48:00.292Z",
-              "EditorCaption": ""
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "casodeestudio\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "casodeestudio\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwCAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-25T07:44:02.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Site.css",
+              "DocumentMoniker": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Content\\Site.css",
+              "RelativeDocumentMoniker": "casodeestudio\\Content\\Site.css",
+              "ToolTip": "D:\\PROGRA AVANZADA\\casodeestudio1\\Caso de Estudio\\casodeestudio\\Content\\Site.css",
+              "RelativeToolTip": "casodeestudio\\Content\\Site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-26T03:40:10.406Z"
             }
           ]
         }
